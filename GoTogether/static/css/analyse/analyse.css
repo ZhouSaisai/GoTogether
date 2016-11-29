@@ -1,0 +1,141 @@
+.day{
+    float:left;
+    width:100px;
+    text-align: center;
+    height: 26px;
+    margin-top:22px;
+    margin-left: 10px;
+    color: white;
+    background-color: #5cb85c;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.day span{
+    font-family: "Microsoft YaHei";
+    font-size: 15px;
+    line-height: 26px;
+    text-align: center;
+}
+
+.container-fluid{
+    clear:both;
+    width:92%;
+    margin: auto;
+    border-radius: 20px;
+    border: 1px solid rgba(92,184,92,.75);
+    -webkit-box-shadow:0 0 14px rgba(92,184,92,3);
+}
+@media(min-width: 992px){
+    .day-data{
+        border-right: 1px dotted #5cb85c;
+    }
+}
+
+.row div,p{
+    font-family: "Microsoft YaHei";
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.title{
+    font-family: "Microsoft YaHei";
+    font-size: 19px;
+    font-weight: 600;
+    margin:10px 30px;
+}
+.bmi-title{
+    margin:10px 45px;
+}
+
+.day-sport,.day-sleep,.day-bmi,.week-state,.sum-state{
+    width:88%;
+    min-height: 100px;
+    margin: auto;
+    border-radius: 15px;
+    background-color: #e3ffe3;
+}
+
+.day-f{
+    margin:20px 0 0 0;
+    text-align: center;
+}
+
+.num{
+    font-family: "Microsoft YaHei";
+    font-size: 26px;
+    font-weight: bold;
+    color: #5cb85c;
+}
+
+.svg{
+    clear:both;
+    float:left;
+    margin:5px 5px 15px;
+}
+.state-container{
+    margin: 5px 5px 15px 5px;
+}
+@media(max-width: 1216px){
+    .week-goal,.week-sleep,.week-bmi{
+        width:33.3%;
+        margin:10px auto;
+    }
+    .svg{
+        margin-left: 30%;
+        margin-right:30%;
+    }
+    .state-container{
+        margin-right:6%;
+    }
+}
+@media(max-width: 993px){
+    .svg{
+        margin:auto;
+    }
+    .state-container{
+        margin:auto;
+    }
+}
+@media(max-width: 767px){
+    .week-goal,.week-sleep,.week-bmi,.distance-sum,.time-sum,.col-sum{
+        width:80%;
+        margin:10px auto;
+    }
+    .svg{
+        margin:5px 15% 5px;
+    }
+    .state-container{
+        margin: 5px 5px 5px 15%;
+    }
+}
+@media(max-width: 443px){
+    .week-goal,.week-sleep,.week-bmi{
+        width:80%;
+        margin:10px auto;
+    }
+    .svg{
+        margin:5px 6% 5px;
+    }
+    .state-container{
+        margin: 5px 5px 5px 5%;
+    }
+}
+
+.friend-list,.public-list{
+    width:80%;
+    margin:48px auto 0;
+}
+.friend-list-rank,.public-list-rank{
+    text-align: center;
+    font-size: 20px;
+    margin: 10px auto 10px;
+}
+#flr-num,#plr-num{
+    font-family: "Microsoft YaHei";
+    font-size: 22px;
+}
+
+.blank15{
+    position: relative;
+    margin-top: 15px;
+}
+

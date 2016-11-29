@@ -1,0 +1,142 @@
+html,body{
+    height:95%
+}
+
+.foot{
+    position: fixed;
+    bottom: 0px;
+    background: rgba(0,0,0,0.9);
+}
+
+.content{
+    position:relative;
+    margin-top: 50px;
+    width:100%;
+    height:90%;
+    min-height: 563px;
+}
+
+.con-block{
+    position: relative;
+    z-index: 0;
+}
+
+.container-1{
+    height:55%;
+    z-index: 6;
+}
+
+.container-2{
+    height:45%;
+    background-color: #d0b78b;
+    z-index: 5;
+}
+
+.container-register{
+    position:relative;
+    width:37%;
+    min-width:350px;
+    height: 275px;
+    margin:auto;
+    top:-19px;
+    background-color: white;
+    border:1px solid orange;
+    z-index: 20;
+}
+
+.container-login{
+    position:relative;
+    width:37%;
+    min-width:350px;
+    height: 240px;
+    margin:auto;
+    top:-19px;
+    background-color: white;
+    border:1px solid orange;
+    z-index: 20;
+}
+
+#login-1{
+    position:relative;
+    display:block;
+    margin:auto;
+    top:30px;
+    z-index: 30;
+}
+
+.form-group input{
+    width:80%;
+    margin:auto;
+}
+.form-group input::-webkit-input-placeholder { /* WebKit browsers */
+    font-family: "Microsoft YaHei";
+}
+.form-group input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    font-family: "Microsoft YaHei";
+}
+.form-group input::-moz-placeholder { /* Mozilla Firefox 19+ */
+    font-family: "Microsoft YaHei";
+}
+.form-group input:-ms-input-placeholder { /* Internet Explorer 10+ */
+    font-family: "Microsoft YaHei";
+}
+
+.btn-block{
+    width:80%;
+    margin:auto;
+    font-family: "Microsoft YaHei";
+    font-size: 15px;
+}
+
+.log_reg {
+    font-family:"Microsoft YaHei";
+    font-size: 24px;
+    color: #5cb85c;
+}
+
+.log_reg_div {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.log_reg_div-2 {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.input_field_div {
+    margin-top: 24px;
+    text-align: center;
+}
+
+.container-register form{
+    margin-top: 10px;
+}
+
+.container-login form{
+    margin-top: 15px;
+}
+
+.login-info,.register-info{
+    font-family:"Microsoft YaHei";
+    font-size: 16px;
+    max-width: 200px;
+    margin-top: 8px;
+}
+
+.register-info{
+    margin-top: 5px;
+}
+.info{
+    float: right;
+    margin-right:10% ;
+}
+
+.info1{
+    float: left;
+    margin-left:10% ;
+}
+
+.login-info a,.register-info a{
+    color: #5cb85c;
+}

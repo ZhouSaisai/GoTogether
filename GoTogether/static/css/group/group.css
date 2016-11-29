@@ -1,0 +1,203 @@
+
+
+.container-fluid{
+    clear:both;
+    width:92%;
+    margin: auto;
+    border-radius: 20px;
+    border: 1px solid rgba(92,184,92,.75);
+    -webkit-box-shadow:0 0 14px rgba(92,184,92,3);
+}
+@media(min-width: 992px){
+    .day-data{
+        border-right: 1px dotted #5cb85c;
+    }
+}
+
+.row div,p{
+    font-family: "Microsoft YaHei";
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+
+
+.day-sport,.day-sleep,.day-bmi,.week-state,.sum-state{
+    width:88%;
+    min-height: 100px;
+    margin: auto;
+    border-radius: 15px;
+    background-color: #e3ffe3;
+}
+.day-sport{
+    margin-top: 10px;
+}
+
+.day-f{
+    margin:20px 0 0 0;
+    text-align: center;
+}
+
+.num{
+    font-family: "Microsoft YaHei";
+    font-size: 26px;
+    font-weight: bold;
+    color: #5cb85c;
+}
+
+.svg{
+    clear:both;
+    float:left;
+    margin:5px 5px 15px;
+}
+.state-container{
+    margin: 5px 5px 15px 5px;
+}
+@media(max-width: 1216px){
+    .week-goal,.week-sleep,.week-bmi{
+        width:33.3%;
+        margin:10px auto;
+    }
+    .svg{
+        margin-left: 30%;
+        margin-right:30%;
+    }
+    .state-container{
+        margin-right:6%;
+    }
+}
+@media(max-width: 993px){
+    .svg{
+        margin:auto;
+    }
+    .state-container{
+        margin:auto;
+    }
+}
+@media(max-width: 767px){
+    .week-goal,.week-sleep,.week-bmi,.distance-sum,.time-sum,.col-sum{
+        width:80%;
+        margin:10px auto;
+    }
+    .svg{
+        margin:5px 15% 5px;
+    }
+    .state-container{
+        margin: 5px 5px 5px 15%;
+    }
+}
+@media(max-width: 443px){
+    .week-goal,.week-sleep,.week-bmi{
+        width:80%;
+        margin:10px auto;
+    }
+    .svg{
+        margin:5px 6% 5px;
+    }
+    .state-container{
+        margin: 5px 5px 5px 5%;
+    }
+}
+
+.friend-list,.public-list{
+    width:80%;
+    margin:48px auto 0;
+}
+.friend-list-rank,.public-list-rank{
+    text-align: center;
+    font-size: 20px;
+    margin: 10px auto 10px;
+}
+#flr-num,#plr-num{
+    font-family: "Microsoft YaHei";
+    font-size: 22px;
+}
+
+.blank15{
+    position: relative;
+    margin-top: 15px;
+}
+
+.state{
+    margin:20px 20px;
+}
+
+.title{
+    font-family: "Microsoft YaHei";
+    font-size: 19px;
+    font-weight: 600;
+}
+
+
+.add-state{
+    width:50%;
+    font-size: 16px;
+    max-width: 100px;
+    margin:0 50%;
+}
+
+.activity_div{
+    /*background-color: blue;*/
+}
+.activity_div div,.activity_div span,.activity_div p{
+    font-family: "Microsoft YaHei";
+}
+.activity_div-box {
+    /*background-color: #e3ffe3;*/
+    width:92%;
+    margin: 10px auto;
+    border-radius: 20px;
+}
+
+
+.title_div a{
+    font-family: "Microsoft YaHei";
+    font-size: 18px;
+    color: #6b8a23;
+    /*padding-top: 3px;*/
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+}
+
+.time{
+    font-family: "Microsoft YaHei";
+    font-size: 18px;
+    color: #6b8a23;
+    text-align: right;
+    margin-top: 8px;
+}
+
+.kind_div p{
+    position: relative;
+    margin-top: -32px;
+    margin-left: 32px;
+    font-size: 18px;
+    color: #5cb85c;
+}
+
+.content_describe {
+    width: 88%;
+    clear:both;
+    word-wrap: break-word;
+    margin: auto;
+    font-size: 17px;
+    color: #6b8a23;
+}
+.operation{
+    font-family: "Microsoft YaHei";
+    font-size: 16px;
+    /*color: #6b8a23;*/
+    color:#77a1ca;
+    width: 88%;
+    clear:both;
+    margin:5px auto;
+}
+.operation span{
+    font-family: "Microsoft YaHei";
+    font-size: 14px;
+}
+.zan{
+    text-align:right;
+}
+
