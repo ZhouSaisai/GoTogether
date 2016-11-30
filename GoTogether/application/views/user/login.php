@@ -52,14 +52,14 @@
             <div class="log_reg_div-2">
                 <span class="log_reg">~立即登录益伙~</span>
             </div>
-            <form>
+            <form action="askLogin"  method="post">
                 <div class="form-group">
                     <label class="sr-only" for="userName">用户名</label>
-                    <input type="text" class="form-control" id="userName" title="userName" placeholder="请输入用户名">
+                    <input type="text" class="form-control" id="userName" name="userName" placeholder="请输入用户名">
                 </div>
                 <div class="form-group">
                     <label class="sr-only" for="password1">密码</label>
-                    <input type="password" class="form-control" id="password1" title="password" placeholder="请输入密码">
+                    <input type="password" class="form-control" id="password1" name="password" placeholder="请输入密码">
                 </div>
 
                 <button type="submit" class="btn btn-success btn-block">登录</button>
